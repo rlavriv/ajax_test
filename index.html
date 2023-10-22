@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>    
+    <script type="text/javascript">
+        $("document").ready(function () {
+            $("document").ajaxStart(function (){
+                console.log("AJAX request started");
+            })
+            $("document").ajaxStop(function (){
+                console.log("AJAX request ended");
+            })
+        })
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="subject"></div>
+    <div id="spacer"></div>
+    <div id="buttons">
+        <button onclick="loadhtmlwithajax()">Load HTML from file</button>
+        <button onclick="loadxmlwithajax()">Load XML from file</button>
+    </div>    
+</body>
+</html>

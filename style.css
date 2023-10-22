@@ -1,0 +1,43 @@
+#subject {
+    border: 1px solid gray;
+    background-color: #b3c8d0;
+    font-size:14pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    display: block;
+    min-height: 200px;
+}
+
+#message {
+    font-size: 40px;
+}
+
+#spacer {
+    min-height: 200px;
+}
+
+span {
+    color: red;
+}
+
+.blueboldtext {
+    color: blue;
+    font-weight: bold;   
+}
+
+.greenitalic {
+    color: green;
+    font-style: italic;
+}
+
+.hint {
+    font-size: smaller;
+}
+
+#effects {
+    border: 1px solid gray;
+    background-color: #b3c8d0;
+    font-size:14pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
