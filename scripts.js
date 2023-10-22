@@ -1,5 +1,12 @@
 function loadhtmlwithajax () {
-    $("#subject").load("data.txt");
+    $.ajax({
+        url: "data.txt",
+        dataType: "txt",
+        success: function(txt) {
+            $("#subject").html(txt);
+        }
+
+    });
 }
 
 function loadxmlwithajax () {
