@@ -1,5 +1,5 @@
 function loadhtmlwithajax () {
-    $("#subject").load("data.txt test1");
+    $("#subject").load("data.txt");
 }
 
 function loadxmlwithajax () {
