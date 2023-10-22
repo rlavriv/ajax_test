@@ -1,11 +1,10 @@
 function loadhtmlwithajax () {
     $.ajax({
         url: "data.txt",
-        dataType: "txt",
-        success: function(txt) {
-            $("#subject").html(txt);
+        dataType: "text",
+        success: function(data) {
+            $("#subject").html(data);
         }
-
     });
 }
 

@@ -1,2 +1,1 @@
-<div class="test1">Text stored in HTML</div>
-<div class="test2">Text stored in HTML</div>
+<div class="appended">Text stored in TXT</div>
